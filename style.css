@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    background: #b92b27;  
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27); 
+    background: linear-gradient(to right, #1565C0, #b92b27); 
+    width: 100vw;
+}
+
+
+
+h1{
+    text-align: center;
+    background: #009FFF;  
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  
+background: linear-gradient(to right, #ec2F4B, #009FFF);
+       font-size: 130%;
+       font-style: oblique;
+       margin-right: 20%;
+       margin-left: 30%;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .cell {
+    background-size: 150px;
+    background-image: url(https://borboletakids.com.br/wp-content/uploads/2022/09/Sem-titulo-12.png);
+    border: 3px dotted rgb(78, 113, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translateX(-90%);
+}
+      
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    background: #009FFF;  
+background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF); 
+background: linear-gradient(to right, #ec2F4B, #009FFF); 
+     left: 55%; 
+    transform: translate(-50%); 
+    color: black;
+}
